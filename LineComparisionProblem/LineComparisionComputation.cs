@@ -10,7 +10,7 @@ namespace LineComparisionProblem
     {
         public static void LineComparision()
         {
-            int X = 0, Y = 0,x1=0,x2=0,y1=0,y2=0;
+            int x1=0,x2=0,y1=0,y2=0;
             double x=0,y = 0,length=0;
             Console.WriteLine("Enter X1 and Y1 Cordinate Values");
             x1=Convert.ToInt32(Console.ReadLine());
@@ -23,6 +23,8 @@ namespace LineComparisionProblem
             y = Math.Pow((y2 - y1), 2);
             length=Math.Sqrt(x+y);
             Console.WriteLine("Length of line: " + length);
+
+
 
         }
     }
